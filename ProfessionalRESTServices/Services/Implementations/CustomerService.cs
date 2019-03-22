@@ -28,7 +28,7 @@ namespace ProfessionalRESTServices.Services.Implementations
         {
             var filteredCustomers = default(IEnumerable<Customer>);
 
-            if (string.IsNullOrEmpty(customerName))
+            if (!string.IsNullOrEmpty(customerName))
                 filteredCustomers =
                    customers
                     .Where(customer => customer.Name.Contains(customerName))

@@ -3,14 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProfessionalRESTServices", "ProfessionalRESTServices\ProfessionalRESTServices.csproj", "{C314136F-8D92-4B29-9CBD-112867F1ACA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProfessionalRESTServices", "ProfessionalRESTServices\ProfessionalRESTServices.csproj", "{C314136F-8D92-4B29-9CBD-112867F1ACA5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B364BDA0-3A76-4973-BFE8-04D84E128A5A}"
 	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProfessionalRESTServices.Tests", "ProfessionalRESTServices.Tests\ProfessionalRESTServices.Tests.csproj", "{6F7EEA3E-34D0-4DB4-B063-3DFA7DB990F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProfessionalRESTServices.Tests", "ProfessionalRESTServices.Tests\ProfessionalRESTServices.Tests.csproj", "{6F7EEA3E-34D0-4DB4-B063-3DFA7DB990F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

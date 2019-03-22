@@ -1,0 +1,25 @@
+{
+    "manifestVersion": 1,
+    "deployments": {
+        "aspNetCoreWeb": [
+        {
+            "name": "professionalrestservices",
+            "parameters": {
+                "appBundle": "professionalrestservices.zip",
+                "iisPath": "/",
+                "iisWebSite": "Default Web Site"
+            }
+        }
+        ],
+		"custom": [
+		{
+			"name": "Custom Env. Variables",
+			"scripts": {
+			"install": {
+				"file": "env-vars.ps1"
+			}
+			}
+      }
+    ]
+    }
+}
